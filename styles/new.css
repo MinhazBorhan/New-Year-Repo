@@ -11,7 +11,7 @@
     height: 600px;
     border-radius: 16px;
     align-items: center;
-    margin: 50px 350px;
+    margin: 50px auto;
 }
 
 .header-contain {
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 120px 400px;
+    margin: 120px auto;
     padding: 0 195px;
     width: 802.9px;
     height: 806px;
@@ -75,7 +75,7 @@
     height: 600px;
     border-radius: 16px;
     /* align-items: center; */
-    margin: 50px 350px;
+    margin: 50px auto;
 }
 
 .second-section-container {
@@ -102,9 +102,11 @@
 
 .join {
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: "Inter" sans-serif;
     font-size: 20px;
     text-align: left;
+    background-color: transparent;
+    border: none;
 }
 
 .second-section-img {
@@ -123,7 +125,7 @@
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     width: 1320px;
     height: 482px;
-    margin: 120px 350px;
+    margin: 120px auto;
     padding: 100px 0;
 }
 
@@ -163,7 +165,7 @@ p {
     height: 463px;
     display: flex;
     text-align: left;
-    margin: 100px 350px;
+    margin: 100px auto;
     align-items: center;
     justify-content: center;
 }
@@ -246,7 +248,7 @@ p {
     text-align: center;
     width: 1320px;
     height: 986.07px;
-    margin: 120px 350px;
+    margin: 120px auto;
     border-radius: 16px 0px 16px 16px;
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
@@ -261,7 +263,7 @@ p {
 
 .fifth-section-banner-s-title {
     color: rgb(7, 2, 17);
-    font-family: Inter;
+    font-family: "Inter" sans-serif;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -320,7 +322,7 @@ p {
     text-align: left;
     width: 1320px;
     height: 1163px;
-    margin: 120px 350px;
+    margin: 120px auto;
 }
 
 .sixth-section-cotainer-01 h3 {
@@ -343,4 +345,136 @@ p {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+.sixth-section-img {
+    margin-bottom: 20px;
+}
+
+.image-middle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.seventh-section {
+    width: 1320px;
+    height: 616px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 120px auto;
+    padding-top: 80px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.seventh-section-banner {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.seventh-section-dis {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.seventh-section-input-btn {
+    border-radius: 16px;
+}
+
+.seventh-section input {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: "Inter" sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 35px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    width: 648px;
+    height: 72px;
+}
+
+.seventh-section button {
+    position: absolute;
+    margin-left: -212px;
+    margin-top: 1.5px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    width: 210px;
+    height: 71px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-section {
+    background-color: rgb(7, 2, 17);
+    width: 1600px;
+    height: 609px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    font-family: "Inter" sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 120px 275px 120px 275px;
+}
+.footer-section-banner-container-01{
+    display: flex;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.footer-section-banner {
+    display: grid;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+.footer-section-banner img {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-section-banner-details {
+    display: flex;
+}
+.footer-section-banner-details p{
+    margin-left: 10px;
+    margin-top: 0;
+    text-transform: lowercase;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 50px;
+    
+}
+.footer-section-icon{
+    /* overflow-x: auto; */
+    margin-left: 620px;
+}
+.footer-section-icon img{
+    border: 1px dashed white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.footer-foot{
+    display: flex;
+    justify-content: space-between;
 }
