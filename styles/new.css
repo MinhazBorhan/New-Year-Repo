@@ -112,7 +112,7 @@
 .second-section-img {
     float: right;
     margin: 70px 138px;
-    background-image: radial-gradient();
+    /* background-color: transparent; */
 
 }
 
@@ -320,7 +320,7 @@ p {
     justify-content: left;
     align-items: start;
     text-align: left;
-    width: 1320px;
+    width: 1330px;
     height: 1163px;
     margin: 120px auto;
 }
@@ -350,7 +350,10 @@ p {
 .sixth-section-img {
     margin-bottom: 20px;
 }
-
+.sixth-section img:hover{
+    border: 1px solid peru;
+    border-radius: 10px;
+}
 .image-middle {
     margin-left: 20px;
     margin-right: 20px;
@@ -443,8 +446,6 @@ p {
 .footer-section-banner img {
     width: 40px;
     height: 40px;
-    border: 1px dashed white;
-    border-radius: 5px;
     margin-bottom: 5px;
 }
 
@@ -468,8 +469,6 @@ hr{
     margin-left: 620px;
 }
 .footer-section-icon img{
-    border: 1px dashed white;
-    border-radius: 5px;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 40px;
